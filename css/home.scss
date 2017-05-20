@@ -113,7 +113,7 @@ $padding-side-mobile: 5rem;
       bottom: 1.5rem;
       left: 0;
       @include media ($mobile) {
-        bottom: 4rem;
+        bottom: 4.5rem;
         left: 2rem;
         text-align: left;
       }
@@ -181,6 +181,9 @@ $padding-side-mobile: 5rem;
     /*width: 7rem;*/
     color: #fff;
     opacity: 1;
+    @include media ($mobile) {
+      font-size: 1.5rem;
+    }
     text-align: left;
     border: 1px solid white;
     vertical-align: middle;

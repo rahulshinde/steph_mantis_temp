@@ -146,7 +146,7 @@ table {
     left: 0; }
     @media screen and (max-width: 740px) {
       #site .bottom h2 {
-        bottom: 4rem;
+        bottom: 4.5rem;
         left: 2rem;
         text-align: left; } }
   #site .bottom img {
@@ -194,6 +194,9 @@ table {
     text-align: left;
     border: 1px solid white;
     vertical-align: middle; }
+    @media screen and (max-width: 740px) {
+      #site input[type="email"] {
+        font-size: 1.5rem; } }
   #site input:focus {
     border: 1px solid white;
     outline: none; }
