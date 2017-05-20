@@ -163,7 +163,7 @@ table {
     @media screen and (max-width: 740px) {
       #site .bottom img {
         width: 12%;
-        bottom: 2.8rem; } }
+        bottom: 2.2rem; } }
   #site #toggle_about:hover {
     cursor: pointer; }
   #site ::-webkit-input-placeholder {
