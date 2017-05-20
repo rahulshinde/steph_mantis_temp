@@ -62,6 +62,7 @@ table {
   background-color: #ef6d9f;
   color: #fff;
   font-family: 'Basis Grotesque', sans-serif;
+  overflow-x: hidden;
   /*mailchimp styling*/ }
   #site.fix {
     overflow: hidden; }
@@ -222,8 +223,7 @@ table {
     box-shadow: none; }
   #site #mc-embedded-subscribe {
     position: absolute;
-    height: 0px;
-    width: 0px;
+    margin-left: -1000rem;
     border: none;
     padding: 0px; }
 
