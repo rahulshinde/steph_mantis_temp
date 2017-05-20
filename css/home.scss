@@ -21,9 +21,21 @@ $padding-side: 13%;
     margin-bottom: 1rem;
   }
 
+  h1{
+    font-size: 3.1rem;
+    letter-spacing: 0.05em;
+    @include media ($mobile) {
+      font-size: 4.4rem;
+    }
+  }
+
   h2,
   p{
     font-size: 1.3rem;
+    line-height: 1.2em;
+    @include media ($mobile) {
+      font-size: 1.8rem;
+    }
   }
 
   .top{
@@ -31,10 +43,6 @@ $padding-side: 13%;
     top: 0;
     left: 0;
     width: 100%;
-    h1{
-      font-size: 3.1rem;
-      letter-spacing: 0.05em;
-    }
   }
 
   .content{
@@ -42,11 +50,18 @@ $padding-side: 13%;
     -webkit-box-sizing: border-box;
     width: 100%;
     padding: 0 $padding-side;
-    margin-top: 8%;
+    margin-top: 7.5%;
+    @include media ($mobile) {
+      margin-top: 9%;
+      padding: 0 5rem;
+    }
 
     img{
       width: 100%;
       margin-bottom: 9%;
+      @include media ($mobile) {
+        margin-bottom: 4%;
+      }
     }
   }
 
