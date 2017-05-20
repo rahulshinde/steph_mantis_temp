@@ -223,6 +223,8 @@ table {
     box-shadow: none; }
   #site #mc-embedded-subscribe {
     position: absolute;
+    width: 0;
+    height: 0;
     border: none;
     padding: 0px; }
 
