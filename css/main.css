@@ -128,7 +128,7 @@ table {
     z-index: 1000; }
     @media screen and (max-width: 740px) {
       #site .about {
-        padding: 0 5rem; } }
+        padding: 0 10rem; } }
     #site .about img {
       width: 55%;
       display: block;
@@ -139,6 +139,9 @@ table {
     #site .about p {
       width: 100%;
       padding-bottom: 5rem; }
+      @media screen and (max-width: 740px) {
+        #site .about p {
+          padding-bottom: 10rem; } }
   #site .bottom form {
     position: fixed;
     bottom: 1.5rem;
