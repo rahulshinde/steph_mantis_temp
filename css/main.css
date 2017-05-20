@@ -121,10 +121,16 @@ table {
     overflow: auto;
     background-color: #308bcb;
     z-index: 1000; }
+    @media screen and (max-width: 740px) {
+      #site .about {
+        padding: 0 5rem; } }
     #site .about img {
       width: 55%;
       display: block;
       margin: 5% auto; }
+      @media screen and (max-width: 740px) {
+        #site .about img {
+          width: 70%; } }
     #site .about p {
       width: 100%;
       padding-bottom: 5rem; }
@@ -138,12 +144,20 @@ table {
     width: 100%;
     bottom: 1.5rem;
     left: 0; }
+    @media screen and (max-width: 740px) {
+      #site .bottom h2 {
+        bottom: 4rem;
+        left: 2rem;
+        text-align: left; } }
   #site .bottom img {
     position: fixed;
     bottom: 1.2rem;
     right: 2rem;
     z-index: 2000;
     width: 4.2%; }
+    @media screen and (max-width: 740px) {
+      #site .bottom img {
+        width: 8%; } }
   #site #toggle_about:hover {
     cursor: pointer; }
   #site ::-webkit-input-placeholder {

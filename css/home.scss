@@ -1,4 +1,5 @@
 $padding-side: 13%;
+$padding-side-mobile: 5rem;
 
 #site{
   background-color: #ef6d9f;
@@ -53,7 +54,7 @@ $padding-side: 13%;
     margin-top: 7.5%;
     @include media ($mobile) {
       margin-top: 9%;
-      padding: 0 5rem;
+      padding: 0 $padding-side-mobile;
     }
 
     img{
@@ -79,10 +80,17 @@ $padding-side: 13%;
     background-color: #308bcb;
     z-index: 1000;
 
+    @include media ($mobile) {
+      padding: 0 $padding-side-mobile;
+    }
+
     img{
       width: 55%;
       display: block;
       margin: 5% auto;
+      @include media ($mobile) {
+        width: 70%;
+      }
     }
 
     p{
@@ -104,6 +112,11 @@ $padding-side: 13%;
       width: 100%;
       bottom: 1.5rem;
       left: 0;
+      @include media ($mobile) {
+        bottom: 4rem;
+        left: 2rem;
+        text-align: left;
+      }
     }
 
     img{
@@ -112,6 +125,9 @@ $padding-side: 13%;
       right: 2rem;
       z-index: 2000;
       width: 4.2%;
+      @include media ($mobile) {
+        width: 8%;
+      }
     }
   }
 
