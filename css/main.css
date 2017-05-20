@@ -86,7 +86,7 @@ table {
     @media screen and (max-width: 740px) {
       #site h2,
       #site p {
-        font-size: 1.8rem; } }
+        font-size: 2rem; } }
   #site .top {
     position: fixed;
     top: 0;
